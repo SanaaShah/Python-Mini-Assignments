@@ -2,9 +2,9 @@
 #  rate of interest, and a number of years.
 
 amount = int(input('Enter the amount:  '))
-interest = int(input('Enter the Interest:  '))
+interest = float(input('Enter the Interest:  '))
 years = int(input('Enter the years:  '))
 
-futureValue  = amount*((1+(0.01*interest)) ** years)
+future_value = amount * (pow((1 + interest / 100), years))
 
-print(futureValue)
+print(future_value)

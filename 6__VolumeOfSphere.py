@@ -3,5 +3,5 @@
 from math import pi
 
 radius = input('Please enter the radius:  ')
-volume = 4 / (4 * pi * 3)
+volume = 4 / (4 * pi * 3 * radius**3)
 print('Volume of the sphere is found to be: '+str(round(volume, 2)))

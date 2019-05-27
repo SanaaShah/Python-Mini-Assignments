@@ -2,8 +2,12 @@
 
 
 import math
-x = [4, 0]
-y = [6, 6]
-distance = math.sqrt(((x[0]-y[0])**2)+((x[1]-y[1])**2))
+
+x = int(input('Please enter 1st X co-ordinate: '))
+x1 = int(input('Please enter 2nd X co-ordinate: '))
+y = int(input('Please enter 1st Y co-ordinate: '))
+y1 = int(input('Please enter 2nd Y co-ordinate:  '))
+
+distance = math.sqrt(((x-y)**2)+((x1-y1)**2))
 
 print(distance)

@@ -32,6 +32,7 @@ if int(month2) <= 2:
 leap_year2 = int(year2 / 4 - year2 / 100 + year2 / 400)
 num2 = num2 + leap_year2
 
+
 #  now we can easily find the difference by subtracting num2 which is the total number of days from 00/00/0000 and num1
 days =  num2 - num1
 
